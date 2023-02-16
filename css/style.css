@@ -1,0 +1,54 @@
+body{
+    background-color:  #006bcf;
+}
+
+nav {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+
+dropdb{
+    color: white;
+    margin: 0 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4295e47c;
+  }
+
+  li {
+    float: left;
+    text-decoration: none;
+  }
+
+  li a {
+    font-size: large;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #4296e4;
+  }
+
+nav ul li ul{
+    display: none;
+    position: relative;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+nav ul li:hover ul{
+    display: block;
+}
+section{
+    text-align: center;
+}
