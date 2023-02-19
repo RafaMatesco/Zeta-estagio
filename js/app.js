@@ -13,6 +13,6 @@ function descerParaID(evento){
 
     window.scroll({
         top: to,
-        behavior: 'smooth'
+        behavior: "smooth"
     })
 }

@@ -5,41 +5,31 @@
         <title>Zeta corp.</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
     </head>
 
     <body id="body">
         <header>
-            <nav >
-                <div>
-                    <ul>
-                                    <div class= "menu">
-                                        <li >
-                                            <a  href="#a"
-                                            > Zeta <span class="sr-only">(current)</span></a>
-                                        </li>
-                                        <li >
-                                            <a href="#b"
-                                            > Nossas soluções <span class="sr-only">(current)</span></a>
-                                        </li>
-                                        <li >
-                                            <a href="#c"
-                                            > Contato <span class="sr-only">(current)</span></a>
-                                        </li>
-                                    </div>
-                                    <li >
-                                        <a  href="sobre.html" > Sobre nós </a>
-                                        <ul>
-                                            <div class="dropdb">
-                                                <li><a  href="quem-somos.html">Quem somos</a></li>
-                                                <li><a  href="missao-valores.html">Missão e valores</a></li>
-                                            </div>
-                                        </ul>
-                                    </li>
-                    </ul>
-                </div>
+            <nav>
+                <ul class="caixa">
+                    <li >
+                        <a  href="#a">Zeta</a>
+                    </li>
+                    <li >
+                        <a href="#b">Nossas soluções</a>
+                    </li>
+                    <li >
+                        <a href="#c">Contato</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropButton">Sobre nós</a>
+                        <ul>
+                            <a  href="quem-somos.html">Quem somos</a>
+                            <a  href="missao-valores.html">Missão e valores</a>
+                        </ul>
+                    </li>
+                </ul>
             </nav>
         </header>
 
@@ -53,10 +43,17 @@
 
             <br><br><br><br><br>
 
-            <section id="b">
+            <section id="b" >
                 <br><br><br>
-                <h1>Nossas soluções</h1>
-                <p>A gente faz compressor inteligente</p>
+                <h1 >Nossas soluções</h1>
+                <div class="subtitulo">compressor de ar inteligente</div>
+                <p>
+                    <img width="500" height="300" src="Assets/comp.png" alt="compressor inteligente" align="left">
+                    <br><br><br>
+                    Sistema embarcado inteligente e inovador, para gestão de operação e manutenção preventiva e preditiva de compressores de ar
+                    que funcionará com integração e serviços em nuvem e inteligência artificial.
+                </p>
+
             </section>
 
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -66,6 +63,8 @@
                 <h1>Contato</h1>
                 <p>Numero taltaltal</p>
             </section>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
             <script type="text/javascript" src="js/app.js"></script>
     </body>

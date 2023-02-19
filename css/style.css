@@ -1,5 +1,5 @@
 body{
-    background-color:  #006bcf;
+    background-color:  #282829;
 }
 
 nav {
@@ -9,46 +9,89 @@ nav {
 	z-index: 100;
 }
 
-dropdb{
-    color: white;
-    margin: 0 25px;
-}
-
-ul {
+ .caixa{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-right: 300px;
+    margin-left: 300px;
     overflow: hidden;
-    background-color: #4295e47c;
+    background-color: rgba(22, 22, 22, 0.856);
+    border-radius: 20px;
+    padding-left: 300px;
+    padding-right: 200px;
   }
+
+  /* itens navbar */
+  nav ul li a {
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+  }
+
+  /* dropdown */
+  nav ul li ul{
+    display: none;
+    position: relative;
+  }
+  nav ul li:hover ul{
+    list-style-type: none;
+    margin-left: 500px;
+    display: block;
+  }
+
+  /* itens dropdown */
+  .dropdown{
+    font-size: 10px;
+  }
+
 
   li {
     float: left;
     text-decoration: none;
+    padding: 5px;
   }
 
-  li a {
-    font-size: large;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-  }
-
-  /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #4296e4;
+      border-radius: 20px;
+      background-color: #2e2d2d;
   }
 
-nav ul li ul{
-    display: none;
-    position: relative;
-    padding: 10px;
-    border-radius: 0px 0px 5px 5px;
-}
-nav ul li:hover ul{
-    display: block;
-}
 section{
     text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 56px;
+    font-family: sans-serif;
+}
+
+p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 28px;
+}
+
+.subtitulo{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(22, 22, 22, 0.604);
+  border-radius: 20px;
 }
